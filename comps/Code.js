@@ -19,9 +19,12 @@ const Code = () => {
                 return (
                     <Fragment>
                         <Notifications />
-                        <div className="code-snippet">
-                            filter: {filter}
-                            <button onClick={_onClick}><Copy /></button>
+                        <div className="code-wrap">
+                            <p>Real Hex #000000, Filtered Hex {context.state.color.hex}</p>
+                            <div className="code-snippet">
+                                filter: {filter}
+                                <button onClick={_onClick}><Copy /></button>
+                            </div>
                         </div>
                     </Fragment>
                 )

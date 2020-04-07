@@ -7,12 +7,24 @@ const Icons = () => {
                 const style = {filter: context.state.result.filter}
                 return (
                     <div className="iocns-wrap">
-                        <div className="icons">
-                            <img style={style} src='../static/facebook.svg' alt="Facebook" />
-                            <img style={style} src='../static/twitter.svg' alt="Twitter" />
-                            <img style={style} src='../static/pinterest.svg' alt="Pinterest" />
-                        </div>
                         <p>Example: SVG as Image</p>
+                        <div className="icons">
+                            <a target='_blank' href="https://github.com/delowardev">
+                                <img style={style} src='../static/github.svg' alt="GitHub" />
+                            </a>
+                            <a target='_blank' href="https://fb.com/delowardev">
+                                <img style={style} src='../static/facebook.svg' alt="Facebook" />
+                            </a>
+                            <a target='_blank' href="https://twitter.com/delowardev">
+                                <img style={style} src='../static/twitter.svg' alt="Twitter" />
+                            </a>
+                            <a target='_blank' href="https://www.linkedin.com/in/delowar/">
+                                <img style={style} src='../static/linkedin.svg' alt="Linkedin" />
+                            </a>
+                            <a target='_blank' href="https://www.instagram.com/delowardev/">
+                                <img style={style} src='../static/instagram.svg' alt="Instagram" />
+                            </a >
+                        </div>
                     </div>
                 )
             }}

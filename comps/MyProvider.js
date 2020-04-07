@@ -10,11 +10,11 @@ class MyProvider extends React.Component {
         super(props);
         this.state = {
             color: {
-                hex: '#8900FF',
+                hex: '#EB144C',
                 rgb: {
-                    r: 137,
-                    g: 0,
-                    b: 255
+                    r: 235,
+                    g: 20,
+                    b: 76
                 }
             },
             result: {}

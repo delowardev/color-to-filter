@@ -1,6 +1,7 @@
 const Header = () => (
     <header>
-        <h1>Color to CSS Filter Generator</h1>
+        <h1>Color to css filter generator</h1>
+        <p>Generate CSS Filter Color</p>
     </header>
 );
 
